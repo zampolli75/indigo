@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Joaquin Rodriguez
+bio: A full-time researcher half-time of the time
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog about technology and information systems
 
 # if it's an external image, update below for true
 # better with square images
@@ -22,7 +22,7 @@ url: https://koppl.in/indigo
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-91812334-1'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -34,7 +34,7 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+# facebook: myfacebook
 twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
@@ -47,15 +47,15 @@ github: mygithub
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: jrod122@lsu.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    jrod:
+        name: Joaquin Rodriguez
+        bio: A full-time researcher half-time of the time
         external-image: false
         picture: assets/images/profile.jpg
         twitter: johndoe
@@ -109,3 +109,6 @@ plugins:
 
 jekyll-mentions:
     base_url: https://github.com
+
+exclude: ['*.Rmd']
+

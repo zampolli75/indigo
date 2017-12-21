@@ -4,43 +4,43 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+## <i class="fa fa-university" aria-hidden="true"></i> Education
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+- **Louisiana State University (2016-present)**  
+Phd in Information Systems  
+Research interests: Strategic information systems.
 
-<h2>Skills</h2>
+- **University of Pavia (2012-2016)**  
+Master in International Business and Economics  
+110/110 Cum Laude  
+Thesis: *Extracting Value from Corporate Communication Digital Data Streams. The Development of a Business Confidence Index Based on Earnings Calls.*  
+Majors: international business, strategy, information systems  
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+- **University of Ferrara (2008-2011)**  
+Bachelor in Business and Economics  
+Graduated among the top 10% of my course.  
+Thesis: *Quality, intangible assets and exports in the design industry. A comparison between Sweden-China-Italy.*  
+Majors: strategy, balance sheet analysis, accountancy.  
 
-<h2>Projects</h2>
+## <i class="fa fa-graduation-cap" aria-hidden="true"></i> Publications
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+- Piccoli, G. Rodriguez, J. Palese, B. and Bartosiak, M. (2017) The Dark Side of Digital Transformation: The case of Information Systems Education. In Proceeding of Thirty-Eight International Conference on Information Systems , Seul, South Korea. [pdf](https://dds.cct.lsu.edu/ddslab/pdf/piccolietal2017.pdf)
+
+- Ives, B., Palese, B., Rodriguez, J.A. (2016). Digital Data Streams for Customer Service Enhancement: Harnessing the Internet of Things. MISQ Executive, 15(4). [pdf](http://www.misqe.org/ojs2/execsummaries/MISQE_V15I4_Ivesetal_Web.pdf)  
+
+- Lynda M. Applegate, Gabriele Piccoli, Joaquin Rodriguez. (2016). CLHS: Scaling a New Venture. Innovation & Entrepreneurship Harvard Business Case. [link](https://hbr.org/product/clhs-scaling-a-new-venture/817053-PDF-ENG)
+
+- Piccoli, G., Rodriguez, J., Watson, R. T. (2015, January). Leveraging Digital Data Streams: The Development and Validation of a Business Confidence Index. In System Sciences (HICSS), 2015 48th Hawaii International Conference on (pp. 928-937). IEEE. [pdf](https://dds.cct.lsu.edu/ddslab/pdf/leveraging_digital_data_streams.pdf)  
+
+- Noce, L., Zamberletti, A., Gallo, I., Piccoli, G., Rodriguez, J. A. (2014). Automatic Prediction of Future Business Conditions. In Advances in Natural Language Processing (pp. 371-383). Springer International Publishing. [pdf](https://dds.cct.lsu.edu/ddslab/pdf/automatic_prediction_future_business_conditions.pdf)  
+
+## <i class="fa fa-briefcase" aria-hidden="true"></i> Experience  
+
+- **Engineering Ingegneria Informatica (May 2014 - May 2016)**  
+Junior Consultant  
+I have specialized in the automotive sector, that see Fiat Chrysler Automobiles (FCA) as the main client. I work closely with the client covering functional analyst, and release manager duties.  
+Tasks: development of BI dashboards (Qlikview) and web applications and the management of their entire lifecycle; gathering requirements; guaranteeing quality relases; managing the accountability and the planning of the project, dealing with incidents (bugs).  
+
+## <i class="fa fa-newspaper-o" aria-hidden="true"></i> Media Contributions
+
+- Article about "branded bots" in [The Advocate](http://www.theadvocate.com/baton_rouge/news/business/article_476b4ab8-b98e-11e7-8dd8-330072c0343e.html).
