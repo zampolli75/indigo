@@ -1,9 +1,16 @@
 ---
+title: "Setting permissions SSH keys"
 layout: post
-title: Setting permissions SSH Keys
-cover: cover.jpg
-date:   2017-03-14 12:00:00
-categories: Utilities
+date: 2017-03-14 12:00
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- utilities
+- terminal
+star: false
+category: blog
+author: jrod
+description: How to set the currect permission on the SSH key
 ---
 
 I was having some trouble accessing my AWS instance from the terminal. I realized that the server was not validating the SSH key because it was not an only read file.  

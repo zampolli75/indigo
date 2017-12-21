@@ -1,9 +1,16 @@
 ---
+title: "Creating aliases in terminal for Mac (iCloud)"
 layout: post
-title: Creating aliases in terminal for Mac (iCloud)
-cover: cover.jpg
-date:   2017-02-03 12:00:00
-categories: Utilities
+date: 2017-02-03 12:00
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- utilities
+- terminal
+star: false
+category: blog
+author: jrod
+description: How to create an alias to access from the terminal a path
 ---
 
 The iCloud forder has an unusual path. ("~/Library/Mobile\ Documents/com~apple~CloudDocs").  

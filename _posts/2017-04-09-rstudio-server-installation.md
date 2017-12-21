@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - markdown
 - elements
-star: true
+star: false
 category: blog
 author: jrod
 description: Summary of how to install Rstudio on a Linux machine

@@ -1,9 +1,22 @@
 ---
+title: "Creating a bot on Messenger"
 layout: post
-title: Creating a Bot on Messenger
-cover: cover.jpg
-date:   2017-02-03 12:00:00
-categories: Conversational
+date: 2017-02-03 12:00
+image: /assets/images/markdown.jpg
+headerImage: false
+projects: false
+hidden: false # don't count this post in blog pagination
+tag:
+- bots
+- aws
+- messenger
+- conversational
+- interface
+star: false
+category: blog
+author: jrod
+description: How I created a bot on Facebook Messenger
+externalLink: false
 ---
 
 # Conversational Interfaces

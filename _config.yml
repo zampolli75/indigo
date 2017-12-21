@@ -3,7 +3,7 @@ name: Joaquin Rodriguez
 bio: A full-time researcher half-time of the time
 
 # twitter summary info
-description: A blog about technology and information systems
+description: A blog about technology and Information Systems
 
 # if it's an external image, update below for true
 # better with square images
@@ -12,7 +12,7 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
@@ -58,7 +58,7 @@ authors:
         bio: A full-time researcher half-time of the time
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
+        twitter: bebright89
     jamesfoster:
         name: James Foster
         bio: A Man who develops software with coffee
