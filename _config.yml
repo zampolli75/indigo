@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://zampolli75.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -35,14 +35,14 @@ disqus:
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: mytwitter
+twitter: bebright89
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: zampolli75
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
