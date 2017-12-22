@@ -1,5 +1,5 @@
 ---
-title: "First Steps Towards my Thesis"
+title: "First thoughts on my thesis"
 layout: post
 date: 2017-12-21 12:00
 image: /assets/images/posts/brilliant-idea.gif
@@ -37,6 +37,4 @@ Go [here](/digital-digitization-digitalization/) for more information about this
 ## Characteristics of digital resources
 The potential for creation and appropriation of value of digital resources depends tightly on the characteristics of the digital resources. We anticipate that the type of digital resource influences its underlying characteristics; therefore not all characteristics are common to all digital resources. In contrast, the literature treats all digital resources without distinction and assumes that they all have the same underlying characteristics (e.g., low cost of replicability).
 In this stage of the research, we conduct a literature review to identify all the characteristics that have been attributed to digital resources and we provide a framework to categorize when and why are these characteristics valid for some resources and not for others. 
-
-Go here for more information about this area of work.
 

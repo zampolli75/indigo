@@ -17,8 +17,3 @@ externalLink: false
 ---
 
 
-Challenges in the process
-The definition of the phenomenon entails the determination of what are the artifacts that are amenable to digitization. We anticipate that the representation in the digital form of an artifact is influenced both by its properties and characteristics and the social aspects it incorporates. Furthermore, we expect the state of technology to mediate the phenomenon as it acts as an enabling factor.
-
-Literature review process
-The review process 

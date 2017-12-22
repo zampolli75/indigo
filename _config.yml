@@ -1,6 +1,6 @@
 # main text of home
 name: Joaquin Rodriguez
-bio: A full-time researcher half-time of the time
+bio: A full-time researcher half the time
 
 # twitter summary info
 description: A blog about technology and Information Systems
@@ -16,7 +16,7 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://zampolli75.github.io
+url: http://rodriguezjoaquin.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
