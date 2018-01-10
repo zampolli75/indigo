@@ -22,7 +22,7 @@ So in order to keep my application running at all times I needed a way to keep t
 Another strength of PM2 is that it is capable of managing multiple environments or applications using configuration files.  
 
 In this post I will cover:  
-- How to install and run applications with PM2  
+- How to install PM2 and run applications with it  
 - How to deploy the same application in multiple environments on the same machine  
 
 # Install PM2
@@ -98,10 +98,10 @@ These are the different commands to start the multiple enviroments of the applic
 <!-- production environment -->
 $ sudo pm2 start ecosystem.config.js --only isds1102-production
 
-<!-- production test -->
+<!-- test environment -->
 $ sudo pm2 start ecosystem.config.js --only isds1102-test
 
-<!-- production development -->
+<!-- development enviroment -->
 $ sudo pm2 start ecosystem.config.js --only isds1102-development
 {% endhighlight %}
 
