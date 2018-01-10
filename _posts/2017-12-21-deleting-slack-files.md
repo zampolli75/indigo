@@ -2,7 +2,7 @@
 title: "Deleting Slack files in an automated manner"
 layout: post
 date: 2017-12-22 12:00
-image: /assets/images/posts/brilliant-idea.gif
+image: /assets/images/posts/
 headerImage: false
 projects: false
 hidden: false # don't count this post in blog pagination
@@ -23,7 +23,7 @@ The first step is to get your private Slack token to use in the script. You can 
 
 ## Download the script
 The script that contains the code to delete the files can be downloaded from [my Github account](https://gist.github.com/zampolli75/f303029d16e55e3a5366e4a2e110e4c8).  The script runs on Python; therefore we assume you have it [installed on your machine](http://docs.python-guide.org/en/latest/starting/install3/osx/) and know how to [install the libraries used in the script](https://packaging.python.org/tutorials/installing-packages/).
-From the original code of [jackcarter](https://gist.github.com/jackcarter/d86808449f0d95060a40) I change a line of code that was not compatible with Python 3. Therefore, be aware you might have to change this part of the code (line 31-32) depending on the version you are using.
+From the original code of [jackcarter](https://gist.github.com/jackcarter/d86808449f0d95060a40) I changed a line of code that was not compatible with Python 3. Therefore, be aware you might have to change this part of the code (line 31-32) depending on the version you are using.
 
 Open the file and paste your private API token in line five where you find the following code:
 
