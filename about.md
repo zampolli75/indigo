@@ -38,8 +38,8 @@ Majors: strategy, balance sheet analysis, accountancy.
 
 - **Engineering Ingegneria Informatica (May 2014 - May 2016)**  
 Junior Consultant  
-I have specialized in the automotive sector, that see Fiat Chrysler Automobiles (FCA) as the main client. I work closely with the client covering functional analyst, and release manager duties.  
-Tasks: development of BI dashboards (Qlikview) and web applications and the management of their entire lifecycle; gathering requirements; guaranteeing quality relases; managing the accountability and the planning of the project, dealing with incidents (bugs).  
+I specialized in the automotive sector that sees Fiat Chrysler Automobiles (FCA) as the primary client. I work closely with the client covering functional analyst, and release manager responsibilities. 
+Tasks: development and management of BI dashboards (Qlikview) and web applications; gathering requirements; managing releases; managing the accountability and the planning of projects, dealing with incidents (bugs).
 
 ## <i class="fa fa-newspaper-o" aria-hidden="true"></i> Media Contributions
 
