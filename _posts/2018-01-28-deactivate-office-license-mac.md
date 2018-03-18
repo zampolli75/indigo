@@ -51,7 +51,7 @@ To move to the `Downloads` directory from the terminal use the following command
 $ cd Downloads
 {% endhighlight %}
 
-After entering the command check that successfully change the directory.
+After entering the command check that successfully changes the directory.
 
 ![downloads](/assets/images/posts/deactivate-office-license-mac/downloads.png)
 

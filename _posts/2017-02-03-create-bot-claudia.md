@@ -21,13 +21,12 @@ externalLink: false
 
 # Conversational Interfaces
 Last semester I started experimenting with conversational interfaces. The first Bot I developed was an Alexa skill for my department (which is still under development). I quickly realized the potentialities of Bots as a means to facilitate all those low-level activities which are better performed without any human interaction. Why would you want to send an e-mail or call a 1-800 when you can just chat with someone (or something in our case)?!  
-There are multiple platforms where you can create bots, but the turning point was the release of FB Messenger SDK in April 2016. So excited by the momentum of conversational interfaces I decided to join the revolution and start developing Messenger bots. Following are the best practices I have learning so far.
+There are multiple platforms where you can create bots, but the turning point was the release of FB Messenger SDK in April 2016. So excited by the momentum of conversational interfaces I decided to join the revolution and start developing Messenger bots. Following are the best practices I have learned so far.
 
 # Create a Bot with Claudia-Bot-Builder
 One of the most significant features an app/service must have in 2017 is scalability. Therefore I decided to host my Bot on Amazon Web Services (AWS). The Lambda service was just perfect for my needs, as it offered quick deployment time and no need for maintenance.  
-<span style="color:green">Node.js</span> has emerged as the standard for developing bots, in fact it is fully supported by Slack, Messenger, Alexa, and many others.  
-I soon discovered a Node.js library that was perfect for the deployment of bots on AWS, namely Claudia-Bot-Builder. The library enables to develop the bot using semplified templates wich increase development time and readabily of the code. In addition to Messenger, the library offers the possibility to create bots on multiple platforms (e.g. Slack, Telegram, Kik). What is great about claudia-bot-builder is that it automatically generates the Webhook URL and the security key required by Messenger to communicate to AWS.  
-
+<span style="color:green">Node.js</span> has emerged as the standard for developing bots, in fact, it is fully supported by Slack, Messenger, Alexa, and many others.  
+I soon discovered a Node.js library that was perfect for the deployment of bots on AWS, namely Claudia-Bot-Builder. The library enables to develop the bot using simplified templates which increase development time and readability of the code. In addition to Messenger, the library offers the possibility to create bots on multiple platforms (e.g., Slack, Telegram, Kik). What is great about claudia-bot-builder is that it automatically generates the Webhook URL and the security key required by Messenger to communicate to AWS.  
 Following are the main steps to deploy your bot.
 
 ## Deploy your bot on AWS using Claudia-Bot Builder
@@ -40,7 +39,7 @@ npm install
 {% endhighlight %}  
 
 <br>
-To deploy the bot on AWS we'll need to use the claudia library. I intalled the library as a global one and use it only as a development dependency for my project. If you already have claudia installed on your machine you might want to update it to the lastest release.
+To deploy the bot on AWS we'll need to use the claudia library. I installed the library as a global one and use it only as a development dependency for my project. If you already have claudia installed on your machine, you might want to update it to the latest release.
 
 {% highlight shell %}
 #install claudia

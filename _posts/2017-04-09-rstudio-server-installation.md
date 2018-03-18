@@ -16,12 +16,14 @@ description: Summary of how to install Rstudio on a Linux machine
 # The Server
 This post assumes that you have already available a server. I usually work with Amazon Web Services (AWS) instances, therefore there might be some specificities. However, the procedure suggested should work for every type of server (local or on the cloud).  
 
+This post assumes that you have already available a server. I usually work with Amazon Web Services (AWS) instances. Therefore there might be some specificities. However, the procedure suggested should work for every type of server (local or on the cloud).  
+
 The procedure suggested is specific for the installation of RStudio Server Pro running on Ubuntu (12.04+).  
 
 # Installing R
 Before installing R we need to add the CRAN repository to indicate to the OS from where does it has to download the R installation files. The CRAN will also be used after the installation to download packages and updates.  
 
-We have to add the CRAN url to the *sources.list* file, which contains all the sources from which packages can be obtained. The version of Ubuntu in this case is *xenial*, you should use subtitute the last part of the second command if you're using a different version. For the details you can visit [this post on RStudio](https://cran.rstudio.com/bin/linux/ubuntu/README.html). For more information about the purpose of the *sources.list* file you can visit [this resource](https://wiki.debian.org/SourcesList).  
+We have to add the CRAN URL to the *sources.list* file, which contains all the sources from which packages can be obtained. The version of Ubuntu, in this case, is *xenial*, you should use substitute the last part of the second command if you're using a different version. For the details, you can visit [this post on RStudio](https://cran.rstudio.com/bin/linux/ubuntu/README.html). For more information about the purpose of the *sources.list* file you can visit [this resource](https://wiki.debian.org/SourcesList).  
 We do so with the following commands:  
 
 {% highlight shell %}
@@ -33,8 +35,8 @@ $ deb https://cran.cnr.berkeley.edu/bin/linux/ubuntu xenial/
 {% endhighlight %}
 
 
-After correctly setting the CRAN repository we can procedeed to download and install R.  
-However, before downloading the R installation files we have to add the key used to signed the CRAN archives. The key serves as a security measure to validate the file source. For thorough details on how to add the key you can visit the [CRAN website](https://cran.r-project.org/bin/linux/ubuntu/#secure-apt). For more details on the *secure-apt* concept you can look thorugh [this documentation](https://wiki.debian.org/SecureApt).
+After correctly setting the CRAN repository we can proceed to download and install R.  
+However, before downloading the R installation files, we have to add the key used to sign the CRAN archives. The key serves as a security measure to validate the file source. For thorough details on how to add the key, you can visit the [CRAN website](https://cran.r-project.org/bin/linux/ubuntu/#secure-apt). For more details on the *secure-apt* concept, you can look through [this documentation](https://wiki.debian.org/SecureApt).
 
 With the following commands we add the server key:  
 
@@ -44,7 +46,7 @@ $ gpg -a --export 51716619E084DAB9 > MRutter_cran.asc
 $ sudo apt-key add MRutter_cran.asc
 {% endhighlight %}
 
-After we sucessfully add the key to the system we can proceeed to install base R. It is adviced to update your system before installing R.
+After we successfully add the key to the system we can proceed to install base R. It is advised to update your system before installing R.
 
 {% highlight shell %}
 ## Update the system
@@ -56,7 +58,7 @@ $ sudo apt-get install r-base
 
 # Installing RStudio Server Pro
 After installing base R we can proceed to install R Studio Server Pro.  
-Before installing RStudio we have to install *gdebi-core*, which is used to RStudio and its dependencies. For more details on how to install RStudio Server you can visit [RStudio website](https://www.rstudio.com/products/rstudio/download-commercial/).  
+Before installing RStudio, we have to install *gdebi-core*, which is used to RStudio and its dependencies. For more details on how to install RStudio Server, you can visit [RStudio website](https://www.rstudio.com/products/rstudio/download-commercial/).  
 We use the following commands to install RStudio:
 
 {% highlight shell %}
@@ -70,13 +72,13 @@ After installing RStudio Server you might want to install the dependencies of so
 
 ## Installing and Configuring Java
 Java is a dependency for some popular libraries, such as *OpenNLP*.  
-With the following command you can install Java 8.  
+With the following command, you can install Java 8.  
 
 {% highlight shell %}
 $ sudo apt-get install openjdk-8-*
 {% endhighlight %}
 
-In order to configure Java for R we have set all Java variables.
+To configure Java for R we have set all Java variables.
 Here are some resources gather while understanding how to configure Java correctly: [IBM - Installing R](https://www.ibm.com/support/knowledgecenter/en/SSPT3X_3.0.0/com.ibm.swg.im.infosphere.biginsights.install.doc/doc/install_install_r.html), [Stack Overflow](http://stackoverflow.com/questions/34212378/installation-of-rjava), [Stack Overflow](http://stackoverflow.com/questions/16438073/unable-to-install-rjava-in-r-3-0-in-ubuntu-13-04).  
 
 
@@ -94,7 +96,7 @@ $ export PATH=$PATH:$JAVA_HOME/bin
 {% endhighlight %}
 
 ## Install GLS
-GLS is the GNU scientific library. Some R libraries depend on this library. For some reason that I wasn't able to understand I had also to install the development package in order to succeed to install the R libraries.  
+GLS is the GNU scientific library. Some R libraries depend on this library. For some reason that I wasn't able to understand I had also to install the development package to succeed to install the R libraries.  
 Here are some resources I used when figuring out how to correctly install GLS: [Ask Ubuntu](https://askubuntu.com/questions/490465/install-gnu-scientific-library-gsl-on-ubuntu-14-04-via-terminal).
 
 {% highlight shell %}

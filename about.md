@@ -7,7 +7,7 @@ layout: page
 ## <i class="fa fa-university" aria-hidden="true"></i> Education
 
 - **Louisiana State University (2016-present)**  
-Phd in Information Systems  
+PhD in Information Systems  
 Research interests: Strategic information systems.
 
 - **University of Pavia (2012-2016)**  
@@ -26,7 +26,7 @@ Majors: strategy, balance sheet analysis, accountancy.
 
 - Piccoli, G. Rodriguez, J. Palese, B. and Bartosiak, M. (2017) The Dark Side of Digital Transformation: The case of Information Systems Education. In Proceeding of Thirty-Eight International Conference on Information Systems , Seul, South Korea. [pdf](https://dds.cct.lsu.edu/ddslab/pdf/piccolietal2017.pdf)
 
-- Ives, B., Palese, B., Rodriguez, J.A. (2016). Digital Data Streams for Customer Service Enhancement: Harnessing the Internet of Things. MISQ Executive, 15(4). [pdf](http://www.misqe.org/ojs2/execsummaries/MISQE_V15I4_Ivesetal_Web.pdf)  
+- Ives, B., Palese, B., Rodriguez, J.A. (2016). Digital Data Streams for Customer Service Enhancement: Harnessing the Internet of Things. **MIS Quarterly** Executive, 15(4). [pdf](http://www.misqe.org/ojs2/execsummaries/MISQE_V15I4_Ivesetal_Web.pdf)  
 
 - Lynda M. Applegate, Gabriele Piccoli, Joaquin Rodriguez. (2016). CLHS: Scaling a New Venture. Innovation & Entrepreneurship Harvard Business Case. [link](https://hbr.org/product/clhs-scaling-a-new-venture/817053-PDF-ENG)
 

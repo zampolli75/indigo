@@ -17,8 +17,8 @@ externalLink: false
 ---
 
 # What this post is about
-Being a rookie with process management guides I was surpriced when my Node application that I was running on a remote server will shut down every time I closed the SSH connection on the terminal. In fact, I soon discovered that running processes on the terminal are shut down when the SSH connection is closed.  
-So in order to keep my application running at all times I needed a way to keep the process running on the background, and that is when I came accross [PM2](http://pm2.keymetrics.io), a process manager for Node.  
+Being a rookie with process management guides, I was surprised when the Node application that I was running on a remote server will shut down every time I closed the SSH connection on the terminal. In fact, I soon discovered that running processes on the terminal are shut down when the SSH connection is closed.  
+So to keep my application running at all times I needed a way to keep the process running on the background, and that is when I came across [PM2](http://pm2.keymetrics.io), a process manager for Node.  
 Another strength of PM2 is that it is capable of managing multiple environments or applications using configuration files.  
 
 In this post I will cover:  
@@ -26,7 +26,7 @@ In this post I will cover:
 - How to deploy the same application in multiple environments on the same machine  
 
 # Install PM2
-As PM2 is itself a Node package its installation is can be done through npm (the package manager for javascript). We will use PM2 accross applications, and therefore a global installation of the library is prefered. To do so we promt the following command in the terminal:  
+As PM2 is itself a Node package, its installation can be done through npm (the package manager for javascript). We will use PM2 across applications, and therefore a global installation of the library is preferred. To do so, we prompt the following command in the terminal:  
 
 {% highlight shell %}
 $ npm install pm2 -g |
@@ -39,19 +39,19 @@ $ pm2 --version
 {% endhighlight %}
 
 # Running an application with PM2
-In order to run a Node application with PM2 we can use the ```start``` command and pass as an argument the filename of the application script. For instance: 
+To run a Node application with PM2 we can use the ```start``` command and pass as an argument the filename of the application script. For instance: 
 
 {% highlight shell %}
 $ sudo pm2 start app.js
 {% endhighlight %}
 
-Some applications run on ports that require admin rights. Therefore, if the application does not starts you might want to try to run it again using ```sudo```. This is necessary for my application as it runs on port 80, which requires admin rights.  
+Some applications run on ports that require admin rights. Therefore, if the application does not start you might want to try to run it again using ```sudo```. This is necessary for my application as it runs on port 80, which requires admin rights.  
 
-After starting the application, PM2 forks the application folder and runs the process in background. This allows to make changes to the application files without interfering with the running process. Furthermore, when startign the application on a remote machine this allows to keep the process running also when the SSH connection is closed.  
+After starting the application, PM2 forks the application folder and runs the process in the background. This allows making changes to the application files without interfering with the running process. Furthermore, when starting the application on a remote machine this allows keeping the process also running when the SSH connection is closed.  
 
 # Running multiple environments
-PM2 allows to manage multiple environments through a configuration file. However, although this feature works for most use cases it was comming it had a shortcoming. In fact, the definition of multiple environments assumes that you run them on different machines. On the contrary, we want to run the testing and production environments on the same machine. Furthermore, we want to have a demo enviroment of our app in the same machine.  
-Therefore, we opted for an approach where we treated the different enviroments as different PM2 applications. To do so we configure the ```ecosystem.config.js``` file with all the enviroments we want to create, treating them as different applications. For each of the applications we define specific variables.
+PM2 allows managing multiple environments through a configuration file. However, although this feature works for most use cases, it was coming it had a shortcoming. In fact, the definition of multiple environments assumes that you run them on different machines. On the contrary, we want to run the testing and production environments on the same machine. Furthermore, we want to have a demo environment of our app on the same machine.  
+Therefore, we opted for an approach where we treated the different environments as different PM2 applications. To do so, we configure the ```ecosystem.config.js``` file with all the environments we want to create, treating them as different applications. For each of the applications, we define specific variables.
 
 {% highlight javascript %}
 module.exports = {
@@ -80,7 +80,7 @@ module.exports = {
 }
 {% endhighlight %}
 
-Organizing our environments this way, we need to define the name of the enviroment that we want to run when starting the application. To do so we have pass the name of the enviroment as an argument of PM2 when startign the application. Furthermore, we also have to pass as an argument the name of the file that contains the enviroment configurations.  
+Organizing our environments this way, we need to define the name of the environment that we want to run when starting the application. To do so, we have passed the name of the environment as an argument of PM2 when starting the application. Furthermore, we also have to pass as an argument the name of the file that contains the environment configurations.  
 
 {% highlight shell %}
 $ sudo pm2 start ecosystem.config.js --only isds1102-production
@@ -92,7 +92,7 @@ The above argument ```--only``` tells PM2 to only start the defined application 
 Following I document some of the most common commands I use to run my application.  
 
 ## Start environments
-These are the different commands to start the multiple enviroments of the application:
+These are the different commands to start the multiple environments of the application:
 
 {% highlight shell %}
 <!-- production environment -->
@@ -125,4 +125,3 @@ $ sudo pm2 delete isds1102-development
 {% endhighlight %}
 
 For more information about PM2 consult its [documentation](http://pm2.keymetrics.io/docs/usage/cluster-mode/).
-
