@@ -36,5 +36,10 @@ externalLink: false
 # Digitization
 -  Article about the major trends influencing the technological progress. Published in Our World in Data. [link](https://ourworldindata.org/technological-progress#exponential-increase-of-the-quality-exponential-decrease-of-the-price-of-digital-cameras)
 
+- Nice insights about how digitization changes the economics of processes. [link](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/the-economics-of-artificial-intelligence?cid=soc-web&utm_source=ActiveCampaign&utm_medium=email&utm_content=Issue+91%3A+Facebook+s+Dating+Service%2C+The+Rise+of+Omnibots%2C+Economics+of+AI&utm_campaign=Weekly+Newsletter+05+02+2018+Issue+91)
+
 # Visualization
 -  Book about guidelines and best practices to visualize data. [link](http://serialmentor.com/dataviz/)
+
+# Finance
+-  Warren Buffett 1999 Fortune interview. Talks about long term value of companies and strategic advantages. [link](http://archive.fortune.com/magazines/fortune/fortune_archive/1999/11/22/269071/index.htm)
